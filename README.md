@@ -36,5 +36,5 @@ roles/init - Update and create a user. If the ROS version is < 6.31, it will upd
 ----------
 What this or that role does is clear from the name.
 
-Some roles have their own README. Some has it in Russian langugage :)
+Some roles have their own README. Some has it in Russian language :)
 
