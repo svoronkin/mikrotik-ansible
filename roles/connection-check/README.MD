@@ -1,9 +1,9 @@
-# Роль для проверки возможности подключения Ansible к роутеру #
+# Role to check if Ansible can connect to the router #
 
 ----------
-Нужна, чтобы отлавливать ошибки при подключении RouterOS, такие как:
+Needed to catch errors when connecting RouterOS, such as:
 
-- Изменение отпечатка сертификата ssh сервера
+- Change the thumbprint of the ssh server certificate
 
 ----------
 
@@ -18,12 +18,11 @@
     ...
 
 ----------
-
-- Не верного логина\пароля 
-- Отсутствие хоста в .ssh/known_hosts
+- Wrong username/password
+- Missing host in .ssh/known_hosts
 
 
 ----------
-Оповещения о проблемах на email.
+Problem alerts by email.
 
-Нужно отредактировать tasks\main.yml и указать корректные учетные данные для подключения к почтовому серверу.
+You need to edit tasks\main.yml and provide the correct credentials to connect to the mail server.

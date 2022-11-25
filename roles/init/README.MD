@@ -1,11 +1,11 @@
-Роль для обновления роутера и добавления пользователя Ansible.
+# Role to update the router and add an Ansible user. #
 
 ----------
 
-Обновить и создать пользователя. Если версия ROS < 6.31, то будет выполнено обновление до последней версии (через /system packages), обновлена firmware и добавлены пользователи.
+Update and create user. If the ROS version is < 6.31, it will update to the latest version (via /system packages), update the firmware, and add users.
 
 
-** Обязательно измените пароль и публичный ключ в файле
+** Be sure to change the password and public key in the file
 files/init-script.rsc **
 
-Если требуется, то и логин измените.
+If required, then change the login.

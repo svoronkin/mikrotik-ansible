@@ -1,10 +1,10 @@
-##Роль, распространяющая контролирующий firewall скрипт##
+##Role that distributes firewall control script##
 
 ----------
 
-Скрипт проверяет кто является WAN интерфейсом (смотрит на src-nat, dhcp-client, имя интерфейса) и проверяет есть ли drop правило в input и forward.
-Шлет оповещения на email.
-Нужно использовать совместно с ролью, которая настраивать email на RouterBoard
+The script checks who is the WAN interface (looks at src-nat, dhcp-client, interface name) and checks if there is a drop rule in input and forward.
+Sends email alerts.
+Must be used in conjunction with a role that configures email on the RouterBoard
 
 
-В файле files/fw-check.rsc нужно указать на какой email отправлять оповещения.
+In the files/fw-check.rsc file, you need to specify which email to send notifications to.

@@ -1,2 +1,2 @@
-Роль добавляет виртуальную wifi точку доступа.
-Отредактируйте имя сети, ключи и прочие параметры.
+The role adds a virtual wifi access point.
+Edit the network name, keys and other parameters.

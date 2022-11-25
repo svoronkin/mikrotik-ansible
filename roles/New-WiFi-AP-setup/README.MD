@@ -1,3 +1,3 @@
-Пример роли для обновления и настройки нового оборудования по шаблону.
+An example of a role for updating and configuring new hardware using a template.
 
-**Отредактируйте шаблон под свои нужды и измените пароли.**
+**Edit the template to suit your needs and change the passwords.**

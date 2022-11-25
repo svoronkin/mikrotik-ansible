@@ -1,1 +1,1 @@
- Пример роли для распространения скрипта, который делает dhcp static lease для хостов с определенным hostname
+Role example for distributing a script that makes dhcp static lease for hosts with a specific hostname
