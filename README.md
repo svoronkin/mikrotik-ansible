@@ -1,5 +1,6 @@
 # mikrotik-ansible
 Ansible roles for setup mikrotik devices
+# NOT TESTED WITH RouterOS v7
 
 ----------
 Some templates for manage mikrotik devices. 
