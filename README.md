@@ -2,7 +2,8 @@
 Ansible roles for setup mikrotik devices
 
 ----------
-Some templates for manage mikrotik devices. For first customize it for you, because there is some temporary logins, passwords, etc.
+Some templates for manage mikrotik devices. 
+# For first customize it for you, because there is some temporary logins, passwords, etc. #
 
 
 **Recomendations**
